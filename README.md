@@ -1,6 +1,7 @@
 # Fake-Job-Detector
 
 Overview
+
 This repository contains an end-to-end data science project focused on the detection of fraudulent job postings. The project leverages Natural Language Processing (NLP) techniques and machine learning to build a robust predictive model. A key component of this project is the use of SHAP (SHapley Additive exPlanations) for model interpretability, providing transparent and explainable AI (XAI).
 
 Technical Stack
