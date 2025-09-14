@@ -4,6 +4,7 @@ Overview
 This repository contains an end-to-end data science project focused on the detection of fraudulent job postings. The project leverages Natural Language Processing (NLP) techniques and machine learning to build a robust predictive model. A key component of this project is the use of SHAP (SHapley Additive exPlanations) for model interpretability, providing transparent and explainable AI (XAI).
 
 Technical Stack
+
 Data Manipulation and Analysis: pandas, numpy
 
 Data Visualization: matplotlib, seaborn, wordcloud
@@ -15,6 +16,7 @@ Model Explainability: shap
 Model Persistence: joblib
 
 Project Workflow
+
 1. Exploratory Data Analysis (EDA)
 Conducted a comprehensive EDA to understand the data's underlying structure and identify key features.
 
@@ -49,6 +51,7 @@ Generated a SHAP summary plot to visualize the most influential features (words)
 The trained Logistic Regression model and the TF-IDF vectorizer were serialized and saved as .pkl files using joblib. This allows for easy model persistence and deployment in a production environment.
 
 Key Findings
+
 The analysis and modeling revealed several key insights:
 
 The Logistic Regression model achieved a high level of accuracy in distinguishing between fraudulent and legitimate job postings.
